@@ -1,13 +1,12 @@
 import './App.css';
-import Main from './components/mainPage/MainPage'
 import CustomNavBar from './components/CustomNav/CustomNav'
-import CustomCard from './components/ui/Card/CustomCard'
+import CustomTable from './components/ui/CustomTable/CustomTable'
+import {data} from './data'
 function App() {
   return (
     <div className="App">
        <CustomNavBar />
-       <CustomCard />
-        <Main />
+       <CustomTable data={data} />
     </div>
   );
 }

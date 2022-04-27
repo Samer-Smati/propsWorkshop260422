@@ -1,6 +1,6 @@
 import React from 'react'
 import {InputGroup,FormControl} from 'react-bootstrap'
-function CustomInput({className,type,placeholder,text_inside_input,label}) {
+function CustomInput({defaultValue,className,type,placeholder,text_inside_input,label}) {
   return (
     <div>
       <InputGroup className="mb-3">
